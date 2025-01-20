@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Landing Page</title>
 </head>
@@ -22,25 +25,41 @@
     <div class="topSection">
         <h1>This Website is <br>
             Awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-        <button class="button">Sign up</button>
+        <p class="mainText">This website has some subtext that goes here under the <br>
+            main title. It's a smaller font and the color is lower <br>
+            contrast</p>
+        <button class="buttonTop">Sign up</button>
 </div>
 <img src="./imgs/pexels-photo-1381112.webp" alt="cat">
 </div>
     </main>
     <section>
         <h2>Some random information.</h2>
+        <div class="boxContainer">
         <div class="boxOne">
-            <p>this is some subtext under an illustration or image</p>
+            <div class="box"></div>
+            <p>this is some subtext <br>
+                under an illustration <br>
+                or image</p>
         </div>
         <div class="boxTwo">
-            <p>this is some subtext under an illustration or image</p>
+            <div class="box"></div>
+            <p>this is some subtext <br>
+                under an illustration <br>
+                or image</p>
         </div>
         <div class="boxThree">
-            <p>this is some subtext under an illustration or image</p>
+            <div class="box"></div>
+            <p>this is some subtext<br>
+                under an illustration<br>
+                or image</p>
         </div>
         <div class="boxFour">
-            <p>this is some subtext under an illustration or image</p>
+            <div class="box"></div>
+            <p>this is some subtext<br>
+                under an illustration<br>
+                or image</p>
+        </div>
         </div>
     </section>
     <article>
@@ -49,15 +68,19 @@
         people will actually read it. Who knows? All I know <br>
         is that it looks nice.
         </p>
-        <span>-Thor, God of Thunder</span>
+        <div class="quoteAuthor">-Thor, God of Thunder</div>
     </article>
-    <div class="SignUpAd">
+    <aside>
+    <div class="signUpAd">
+        <div class="adText">
         <h3>Call to action! It's time!</h3>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button class="buttonTwo">Sign up</button>
+        <p class="signUp">Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <button class="buttonBottom">Sign up</button>
     </div>
+    </aside>
     <footer>
-        <span>Copyright @ The Odin Project 2021</span>
+        <p>Copyright @ The Odin Project 2021</p>
     </footer>
 </body>
 </html>
